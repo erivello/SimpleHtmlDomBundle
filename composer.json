@@ -1,0 +1,25 @@
+{
+    "name": "erivello/simple-html-dom-bundle",
+    "description": "Bundle around Simple HTML DOM library",
+    "type": "symfony-bundle",
+    "keywords": ["html", "dom", "php"],
+    "homepage": "https://github.com/erivello/SimpleHtmlDomBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Edoardo Rivello",
+            "email": "edoardo.rivello@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.2.4"
+    },
+    "minimum-stability": "dev",
+    "target-dir": "Erivello/Bundle/SimpleHtmlDomBundle",
+    "autoload": {
+        "psr-0": {
+            "Erivello\\Bundle\\SimpleHtmlDomBundle": "",
+            "classmap":["lib/simple_html_dom.php"]
+        }
+    }
+}
