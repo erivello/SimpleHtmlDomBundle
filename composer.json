@@ -16,11 +16,9 @@
         "symfony/framework-bundle": ">=2.0,<2.3-dev"
     },
     "minimum-stability": "dev",
-    "target-dir": "Erivello/Bundle/SimpleHtmlDomBundle",
+    "target-dir": "Erivello/SimpleHtmlDomBundle",
     "autoload": {
-        "psr-0": {
-            "Erivello\\Bundle\\SimpleHtmlDomBundle": "",
-            "classmap":["lib/simple_html_dom.php"]
-        }
+        "psr-0": { "Erivello\\SimpleHtmlDomBundle": "" },
+        "classmap": [ "lib" ]
     }
 }

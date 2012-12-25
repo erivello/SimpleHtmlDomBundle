@@ -1,6 +1,6 @@
 <?php
 
-namespace Erivello\Bundle\SimpleHtmlDomBundle;
+namespace Erivello\SimpleHtmlDomBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
