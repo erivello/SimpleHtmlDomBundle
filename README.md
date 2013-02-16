@@ -29,7 +29,7 @@ public function registerBundles()
     $bundles = array(
         // ...
 
-        new Erivello\Bundle\SimpleHtmlDomBundle\ErivelloSimpleHtmlDomBundle(),
+        new Erivello\SimpleHtmlDomBundle\ErivelloSimpleHtmlDomBundle(),
     );
 }
 ```
