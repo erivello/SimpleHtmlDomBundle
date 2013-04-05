@@ -1,6 +1,6 @@
 <?php
 
-namespace Erivello\Bundle\SimpleHtmlDomBundle\DependencyInjection;
+namespace Erivello\SimpleHtmlDomBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
